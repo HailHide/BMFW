@@ -44,7 +44,7 @@ h1, h2, h3 {
  */
 #container {
 	background-color: white;
-	width: 800px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -57,17 +57,22 @@ h1, h2, h3 {
 	text-align: center;
 	padding: 10px;
 }
+
+#sub_header {
+	color: white;
+}
 /*
 	apply to id="content" in html
  */
 #content {
 	padding: 10px 10px 10px 10px;
+	width: available;
 }
 /*
 	here we create some nav-bar
  */
 #nav {
-	width: 180px;
+	width: 22%;
 	float: left;
 }
 /*
@@ -87,7 +92,7 @@ h1, h2, h3 {
 	here is the main <div></div> it's the global content
  */
 #main {
-	width: 600px;
+	width: 78%;
 	float: right;
 }
 /*
@@ -100,4 +105,9 @@ h1, h2, h3 {
 	background-color: red;
 	color: white;
 	text-align: right;
+}
+
+#footer .copyright {
+	font-family: Arial;
+	color:black; 
 }
