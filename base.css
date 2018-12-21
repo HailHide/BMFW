@@ -1,0 +1,103 @@
+/*
+	Preambule :
+	Thanks to read this, it'a my work on custom style sheets (css)
+	To get started : identify classes by # and id's by .
+	.id into #class gives you : 
+	#toast .butter {
+		attribut: argument;
+	} 
+ */
+/*
+	body apply to the whole content
+ */
+@font-face {
+	font-family: 'underwood_champion';
+	src: url('CSS/web_fonts/underwood_champion/underwood_champion.eot');
+    src: url('CSS/web_fonts/underwood_champion/underwood_champion-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CSS/web_fonts/underwood_champion/underwood_champion-webfont.woff') format('woff'),
+         url('CSS/web_fonts/underwood_champion/underwood_champion-webfont.ttf') format('truetype'),
+         url('CSS/web_fonts/underwood_champion/underwood_champion-webfont.svg#underwood_champion') format('svg');
+}
+/*
+	fontstyle: | [italic] [bold] [underline] [line-through] [overline] [blink] [none];
+ */
+body {
+	background-color: #EEE;
+	font-family: 'underwood_champion', Arial, serif;
+}
+/*
+	a apply to all link <a href="" id="x" target="_x">xxx</a>
+ */
+a {
+	text-decoration: none;
+	color: red;
+}
+/*
+	apply to both h1, h2 & h3 : separate items with spaces & commas;
+ */
+h1, h2, h3 {
+	margin: 0;
+
+}
+/*
+	apply to id="container" in html
+ */
+#container {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+	apply yo id="header" in html
+ */
+#header {
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+/*
+	apply to id="content" in html
+ */
+#content {
+	padding: 10px 10px 10px 10px;
+}
+/*
+	here we create some nav-bar
+ */
+#nav {
+	width: 180px;
+	float: left;
+}
+/*
+	here we design the <ul>xxx</ul> into id="nav"
+ */
+#nav ul {
+	list-style-type: none;
+	padding: 0px;
+}
+/*
+	.selected is a class="selected" into id="nav"
+ */
+#nav .selected {
+	font-weight: bold;
+}
+/*
+	here is the main <div></div> it's the global content
+ */
+#main {
+	width: 600px;
+	float: right;
+}
+/*
+	here is the footer "clear: both;" is important to clean all <div></div> before display this one
+ */
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background-color: red;
+	color: white;
+	text-align: right;
+}
