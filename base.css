@@ -13,6 +13,7 @@ p {
 
 ul, ol {
 	border: solid yellow;
+	text-align: left;
 }
 
 blockquote {
@@ -43,9 +44,8 @@ a {
 
 #intro {
 	border: solid pink;
-	float: left;
+	float: right;
 	width: auto;
-	align-content: left;
 }
 
 #nav {
@@ -54,6 +54,14 @@ a {
 	border: solid red;
 	text-align: left;
 	width: 22%;
+}
+
+#nav .selected {
+	font-weight: bold;
+}
+
+#nav ul {
+	list-style-type: none;
 }
 
 #main {
