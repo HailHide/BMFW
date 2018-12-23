@@ -1,2 +1,2 @@
 # BMFW
-[![version]
+[![version]]
