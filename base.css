@@ -1,22 +1,38 @@
 body {
+	
+}
 
+figure {
+	border: solid gray;
+}
+
+p {
+	border: solid green;
+}
+
+ul, ol {
+	border: solid yellow;
+}
+
+blockquote {
+	border: solid purple;
 }
 
 #container {
 	max-width: auto;
 	max-height: auto;
+	border: solid black;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h1 {
+h1, h2, h3 {
 	color: red;
 }
 
 header {
 	text-align: center;
-}
-
-header .h1 {
-	float: left;
+	border: solid blue;
 }
 
 a {
@@ -24,11 +40,29 @@ a {
 	color: red;
 }
 
-#nav {
+#intro {
+	border: solid pink;
+}
 
+#nav {
+	padding-left: 10px;
+	float: left;
+	border: solid red;
+	text-align: left;
+	width: 22%;
 }
 
 #main {
-	float: right;
-	width: 
+	padding: 10px;
+	text-align: left;
+	border: solid silver;
+}
+
+#footer {
+	border: solid red;
+}
+
+#copyright {
+	text-align: right;
+	border: solid maroon;
 }
