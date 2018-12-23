@@ -1,9 +1,10 @@
-body {
-	
+hr {
+	clear: both;
 }
 
 figure {
 	border: solid gray;
+	clear: both;
 }
 
 p {
@@ -42,6 +43,9 @@ a {
 
 #intro {
 	border: solid pink;
+	float: left;
+	width: auto;
+	align-content: left;
 }
 
 #nav {
@@ -56,6 +60,7 @@ a {
 	padding: 10px;
 	text-align: left;
 	border: solid silver;
+	float: right;
 }
 
 #footer {
@@ -65,4 +70,9 @@ a {
 #copyright {
 	text-align: right;
 	border: solid maroon;
+}
+
+.copyleft {
+  display: inline-block;
+  transform: rotate(180deg);
 }
